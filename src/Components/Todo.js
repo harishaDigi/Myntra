@@ -10,7 +10,6 @@ class Todo extends React.Component{
           }
         handleChage = ()=>{
                   //e.preventDefault()
-                  console.log("event in handleChange-------")
                  // this.props.onChange(e)
         }  
    render(){
