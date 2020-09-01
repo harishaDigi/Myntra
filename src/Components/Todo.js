@@ -10,7 +10,7 @@ class Todo extends React.Component{
           }
         handleChage = ()=>{
                   //e.preventDefault()
-                 // this.props.onChange(e)
+                 this.setState({[e.target.name]:e.target.value})
         }  
    render(){
              return(
